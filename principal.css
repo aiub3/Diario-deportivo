@@ -1,0 +1,40 @@
+* {margin:0;padding:0;box-sizing:border-box;}
+body {background:#D8D8D8;}
+header {width:100%;background:#A4A4A4;}
+header h1 {font-size:50px;text-align:center;}
+header h1 a {text-decoration:none;color:black;}
+header nav {width:60%;margin:auto;height:30px;}
+header nav ul {list-style:none;padding:5px;}
+header nav ul li {cursor:pointer;}
+header nav ul li a {text-decoration:none;color:black;}
+header nav > ul {text-align:center;}
+header nav > ul > li {float:left;width:20%;}
+header nav ul li ul {display:none;}
+header nav > ul li:hover > ul {display:block;background:#A4A4A4;}
+img {width:50px;}
+.contenedor {width:90%;margin:80px auto;}
+.contenedor .articulos:first-child {width:70%;float:left;padding:10px;}
+.contenedor .articulos:first-child img {width:90%;}
+.contenedor .articulos:nth-child(2) {width:30%;float:left;padding:10px;}
+.contenedor .articulos:nth-child(2) img {width:90%;}
+.contenedor .articulos:nth-child(3) {width:30%;float:right;padding:10px;}
+.contenedor .articulos:nth-child(3) img {width:90%;}
+.contenedor .articulos:nth-child(4) {width:40%;float:left;padding:10px;}
+.contenedor .articulos:nth-child(4) img {width:90%;}
+.contenedor .articulos:nth-child(5) {width:30%;float:left;padding:10px;}
+.contenedor .articulos:nth-child(5) img {width:90%;}
+.contenedor .articulos:nth-child(6) {width:50%;float:right;padding:10px;}
+.contenedor .articulos:nth-child(6) img {width:90%;}
+.contenedor .articulos:nth-child(7) {width:50%;float:right;padding:10px;}
+.contenedor .articulos:nth-child(7) img {width:90%;}
+.contenedor .articulos:nth-child(8) {width:40%;float:left;padding:10px;}
+.contenedor .articulos:nth-child(8) img {width:90%;}
+.contenedor .articulos:nth-child(9) {width:30%;float:left;padding:10px;}
+.contenedor .articulos:nth-child(9) img {width:90%;}
+.contenedor .articulos:nth-child(10) {width:30%;float:left;padding:10px;}
+.contenedor .articulos:nth-child(10) img {width:90%;}
+.contenedor .articulo {width:80%;margin:auto;background:;}
+.contenedor .articulo h2 {text-align:center;font-size:30px;}
+.contenedor .articulo img {width:95%;padding:10px 0px 10px 40px;}
+.contenedor .articulo p {padding:10px;}
+footer {clear:both;width:100%;background:#A4A4A4;text-align:center;padding:10px;}
